@@ -1,56 +1,123 @@
-/* Mobile Responsiveness Fixes - Comprehensive */
+/* Mobile Responsiveness Fixes - Compatible with Responsive Navigation */
 
 /* Mobile viewport and base fixes */
 @media screen and (max-width: 768px) {
-  /* Prevent horizontal scroll */
+  /* Prevent horizontal scroll and remove excessive padding */
   body {
     overflow-x: hidden;
     margin: 0;
-    padding: 0;
+    padding: 0 !important;
   }
   
-  /* Fix navigation completely */
+  /* Ensure navigation works properly on mobile */
   .greedy-nav {
     position: relative;
     width: 100%;
+    min-width: auto;
   }
   
+  /* Ensure hamburger button is properly styled when visible */
+  .greedy-nav button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background-color: var(--global-base-color);
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  /* Style the hamburger icon */
+  .greedy-nav button .navicon {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    margin: 4px auto;
+    transition: all 0.3s ease;
+  }
+  
+  .greedy-nav button .navicon:before,
+  .greedy-nav button .navicon:after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    margin: 4px auto;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hamburger animation when menu is open */
+  .greedy-nav button.close .navicon {
+    background: transparent;
+  }
+  
+  .greedy-nav button.close .navicon:before {
+    transform: rotate(45deg);
+    margin-top: -2px;
+  }
+  
+  .greedy-nav button.close .navicon:after {
+    transform: rotate(-45deg);
+    margin-top: -2px;
+  }
+  
+  /* Ensure visible links work properly */
   .greedy-nav .visible-links {
-    display: none !important;
+    display: table;
+    width: calc(100% - 2.5rem);
   }
   
+  .greedy-nav .visible-links li {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  /* Style the hidden links dropdown */
   .greedy-nav .hidden-links {
-    display: block !important;
-    position: static !important;
-    background: transparent !important;
-    box-shadow: none !important;
-    border: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 100% !important;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid var(--global-border-color);
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    min-width: 200px;
   }
   
-  .greedy-nav .hidden-links:before,
-  .greedy-nav .hidden-links:after {
-    display: none !important;
+  .greedy-nav .hidden-links.hidden {
+    display: none;
   }
   
   .greedy-nav .hidden-links li {
-    display: block !important;
-    border-bottom: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
+    display: block;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+  
+  .greedy-nav .hidden-links li:last-child {
+    border-bottom: none;
   }
   
   .greedy-nav .hidden-links a {
-    padding: 10px 0 !important;
-    font-size: 16px !important;
-    display: block !important;
-    width: 100% !important;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 14px;
+    display: block;
+    color: var(--global-masthead-link-color);
+    text-decoration: none;
   }
   
-  .greedy-nav button {
-    display: none !important;
+  .greedy-nav .hidden-links a:hover {
+    color: var(--global-masthead-link-color-hover);
+    background: var(--global-border-color);
   }
   
   /* Fix masthead */
@@ -72,7 +139,8 @@
   }
   
   .sidebar {
-    padding: 1rem;
+    padding: 1rem !important;
+    padding-top: 1rem !important;
     width: 100%;
     max-width: 100%;
   }
@@ -98,6 +166,25 @@
     width: 100%;
     max-width: 100%;
   }
+  
+  /* Projects page - single column layout for mobile */
+  .project-item {
+    display: block !important;
+    text-align: center !important;
+    gap: 0 !important;
+  }
+  
+  .project-item img {
+    width: 100% !important;
+    max-width: 300px !important;
+    height: auto !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .project-item h3 {
+    margin-top: 0 !important;
+    text-align: center !important;
+  }
 }
 
 /* Very small screens */
@@ -111,6 +198,22 @@
   }
   
   .sidebar {
-    padding: 0.5rem;
+    padding: 0.5rem !important;
+    padding-top: 0.5rem !important;
+  }
+  
+  /* Adjust navigation for very small screens */
+  .greedy-nav .visible-links {
+    width: calc(100% - 2rem);
+  }
+  
+  .greedy-nav button {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .greedy-nav .hidden-links {
+    min-width: 150px;
+    right: 0;
   }
 }
