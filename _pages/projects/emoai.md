@@ -5,7 +5,7 @@ permalink: projects/role-playing-emoai/
 author_profile: true
 ---
 
-**Ploy Pruekcharoen**, Academic Research
+**Ploy Pruekcharoen\***, Xingyu Li*, Noura Howell, Richmond Wong; Academic Research
 
 ### Abstract
 
@@ -18,3 +18,6 @@ This paper investigates how software engineers express and communicate ethical c
 <div class="figma-embed">
   <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/slides/bGUVnsnX8bbUo8yVzE8xEa/Investigating-Software-Engineers%E2%80%99-Communication-Practices-of-Ethics-in-Tech-Industry?node-id=1-337&embed-host=share" allowfullscreen></iframe>
 </div>
+
+<br/>
+<p><a href="/projects/agoda-cart-feedback">Next: Improving Add-to-Cart feedback to enhance cross-selling</a></p>

@@ -20,7 +20,12 @@ author_profile: true
   <a href="/projects/xr-library"><div class="project-item">
     <img class="project-thumb" src="/files/projects/xr-library/xr-library.png" alt="XR Library">
     <h3><strong>Driving XR product demands through inclusive design</strong></h3>
-  </div></a> 
+  </div></a>
+
+  <a href="/projects/how-to-feel-microplastics"><div class="project-item">
+    <img class="project-thumb" src="/files/projects/microplastics/microplastics.png" alt="How To Feel Microplastics">
+    <h3><strong>How To Feel Microplastics: ​Designing a Relational Data Setting​</strong></h3>
+  </div></a>
 
   <div class="project-item">
     <img class="project-thumb" src="/files/projects/dfxai/design-fiction-ai.png" alt="Design Fiction x AI">

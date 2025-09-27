@@ -5,7 +5,7 @@ permalink: projects/agoda-cart-feedback/
 author_profile: true
 ---
 
-**Ploy Pruekcharoen**, Internship Project
+**Ploy Pruekcharoen**; Internship Project
 
 ### Overview
 
@@ -18,3 +18,6 @@ Prototyping and developing an interactive prototype for Agoda's Add-to-Cart feed
 <div class="figma-embed">
   <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/slides/JWhd1hPxRXwKCC6nl6t49T/Agoda---Improving-Add-to-Cart-feedback-to-enhance-cross-selling?node-id=1-686&embed-host=share" allowfullscreen></iframe>
 </div>
+
+<br/>
+<p><a href="/projects/xr-library">Next: Driving XR product demands through inclusive design</a></p>
