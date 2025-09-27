@@ -4,14 +4,16 @@
 
 .page__footer {
   @include clearfix;
-  background-color: var(--global-footer-bg-color);
-  color: var(--global-text-color-light);
+  // background-color: var(--global-footer-bg-color);
+  color: var(--global-dark-border-color);
 
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   clear: both;
+
+  text-align: center;
 
   /* sticky footer fix start */
   position: absolute;
@@ -60,6 +62,7 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+  text-align: center;
 }
 
 .page__footer-follow {
@@ -67,6 +70,7 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+    text-align: center;
   }
 
   li {
@@ -85,7 +89,7 @@
 
   a {
     padding-right: 10px;
-    font-weight: bold;
+    font-weight: 600;
   }
 
   .social-icons {

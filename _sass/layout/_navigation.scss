@@ -47,7 +47,7 @@
   }
 
   .current {
-    font-weight: bold;
+    font-weight: 600;
   }
 }
 
@@ -79,7 +79,7 @@
       padding: 0.5em 1em;
       font-family: $sans-serif;
       font-size: 14px;
-      font-weight: bold;
+      font-weight: 600;
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
@@ -128,7 +128,7 @@
     width: 50%;
     font-family: $sans-serif;
     font-size: $type-size-5;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;
     text-decoration: none;
     color: var(--global-text-color-light);
@@ -210,7 +210,7 @@
       vertical-align: middle;
 
       &:first-child {
-        font-weight: bold;
+        font-weight: 600;
         text-wrap: wrap;
 
         a {
@@ -346,7 +346,7 @@
     padding-left: 0.5em;
     padding-right: 0.5em;
     color: #fff;
-    font-weight: bold;
+    font-weight: 600;
     background: var(--global-base-color);
     border-radius: $border-radius;
 
@@ -361,7 +361,7 @@
   padding: 0.5rem 1rem;
   font-family: $sans-serif-narrow;
   font-size: $type-size-5;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .nav__sub-title {
@@ -370,7 +370,7 @@
   padding: 0.5rem 0;
   font-family: $sans-serif-narrow;
   font-size: $type-size-6;
-  font-weight: bold;
+  font-weight: 600;
   text-transform: uppercase;
   border-bottom: 1px solid var(--global-border-color);
 }
@@ -411,7 +411,7 @@
     padding: 0.5rem 1rem;
     color: var(--global-code-text-color);
     font-size: $type-size-7;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 1.5;
     border-bottom: 1px solid var(--global-border-color);
     text-decoration-line: none !important;

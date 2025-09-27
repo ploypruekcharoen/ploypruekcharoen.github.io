@@ -26,14 +26,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
-  line-height: 1.2;
+  line-height: auto;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 h1 {
   margin-top: 0;
-  font-size: $type-size-3;
+  font-size: $type-size-4;
 }
 
 h2 {
@@ -62,6 +62,10 @@ small, .small {
 
 p {
   margin-bottom: 1.3em;
+}
+
+strong {
+  font-weight: 600;
 }
 
 u,
@@ -363,3 +367,80 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
       display: none;
     }
   }
+
+/* ==========================================================================
+   PROJECTS STYLES
+   ========================================================================== */
+
+// .projects {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: left;
+//   gap: 2rem; // space between items
+//   margin: 2rem 0;
+// }
+
+// .project-item {
+//   // flex: 1 1 250px; // grow, shrink, min width 250px
+//   max-width: 400px;
+//   text-align: center;
+// }
+
+// .project-item img {
+//   width: 300px;    // adjust as needed
+//   height: auto;
+//   margin-bottom: 1rem;
+// }
+
+// .project-item p {
+//   width: 300px;
+// }
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr; // default: stack on mobile
+  gap: 2rem;
+  margin: 2rem 0;
+  &.pj-homepage {
+    @include breakpoint($medium) {
+      grid-template-columns: repeat(2, 1fr); // 2 columns on medium+
+    }
+  }
+}
+
+.project-item {
+  display: flex;
+  align-items: center;   // image + text aligned at the top
+  gap: 3rem;
+  text-align: left;
+  &.pj-homepage {
+    gap: 1rem;
+  }
+}
+
+.project-thumb {
+  flex-shrink: 0;            // don’t let the image shrink
+  width: 300px;               // adjust size
+  height: auto;
+  margin-top: 0.25rem;       // tweak vertical alignment
+  &.pj-homepage {
+    width: 150px;
+  }
+}
+
+.project-title {
+  font-size: $type-size-5;   // ~16px
+  line-height: 1.4;
+  margin: 0;
+}
+
+// 
+
+.page--project {
+  max-width: 1000px;   /* control readable width */
+  margin: 0 auto;
+  padding: 0;
+
+  .page__title { font-size: $type-size-2; margin-bottom: .75rem; }
+  .page__content { line-height: 1.7; }
+}

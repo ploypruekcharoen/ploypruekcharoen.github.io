@@ -1,3 +1,56 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
 {% include analytics.html %}
+
+<script>
+    (function () {
+      function retargetExternalLinks(scope) {
+        var currentOrigin = window.location.origin;
+        var links = (scope || document).querySelectorAll('.page__content a[href^="http"]');
+    
+        links.forEach(function (link) {
+          try {
+            var url = new URL(link.href, currentOrigin);
+            if (url.origin !== currentOrigin) {
+              link.setAttribute('target', '_blank');
+    
+              // preserve existing rel and add security flags
+              var rel = (link.getAttribute('rel') || '').split(/\s+/);
+              ['noopener','noreferrer','external'].forEach(function(flag){
+                if (!rel.includes(flag)) rel.push(flag);
+              });
+              link.setAttribute('rel', rel.filter(Boolean).join(' ').trim());
+            }
+          } catch (e) {
+            // ignore malformed URLs (mailto:, tel:, etc. aren't matched by ^http anyway)
+          }
+        });
+      }
+    
+      // Initial run after DOM is ready
+      document.addEventListener('DOMContentLoaded', function(){ retargetExternalLinks(document); });
+    
+      // In case of bfcache/nav restores
+      window.addEventListener('pageshow', function(){ retargetExternalLinks(document); });
+    })();
+</script>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelectorAll(".author__urls a[href]").forEach(function(link) {
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener noreferrer");
+        });
+    });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Match the CV link in the top nav
+    document.querySelectorAll('.masthead a[href$=".pdf"]').forEach(function(link) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    });
+  });
+</script>
+  

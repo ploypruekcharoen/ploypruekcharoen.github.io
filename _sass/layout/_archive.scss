@@ -15,22 +15,33 @@
   }
 
   a {
-    text-decoration: underline;
+    // text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      // text-decoration: underline;
+      font-weight: 600;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
       }
     }
   }
+
+  .wordwrap,p,ul,li {
+    font-size: 0.875em;
+  }
+
+  p {
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+  }
 }
 
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
-  font-size: $type-size-5;
+  font-size: $type-size-6;
   color: var(--global-text-color-light);
   border-bottom: 1px solid var(--global-border-color);
 
