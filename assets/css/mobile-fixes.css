@@ -1,0 +1,116 @@
+/* Mobile Responsiveness Fixes - Comprehensive */
+
+/* Mobile viewport and base fixes */
+@media screen and (max-width: 768px) {
+  /* Prevent horizontal scroll */
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Fix navigation completely */
+  .greedy-nav {
+    position: relative;
+    width: 100%;
+  }
+  
+  .greedy-nav .visible-links {
+    display: none !important;
+  }
+  
+  .greedy-nav .hidden-links {
+    display: block !important;
+    position: static !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  
+  .greedy-nav .hidden-links:before,
+  .greedy-nav .hidden-links:after {
+    display: none !important;
+  }
+  
+  .greedy-nav .hidden-links li {
+    display: block !important;
+    border-bottom: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .greedy-nav .hidden-links a {
+    padding: 10px 0 !important;
+    font-size: 16px !important;
+    display: block !important;
+    width: 100% !important;
+  }
+  
+  .greedy-nav button {
+    display: none !important;
+  }
+  
+  /* Fix masthead */
+  .masthead {
+    position: relative;
+    width: 100%;
+  }
+  
+  .masthead__inner-wrap {
+    padding: 0.5em;
+    width: 100%;
+  }
+  
+  /* Fix content spacing */
+  .page__content {
+    padding: 1rem;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .sidebar {
+    padding: 1rem;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  /* Fix text overflow */
+  h1, h2, h3, h4, h5, h6 {
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+  
+  a {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  /* Fix any layout issues */
+  .page {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Very small screens */
+@media screen and (max-width: 480px) {
+  .masthead__inner-wrap {
+    padding: 0.25em;
+  }
+  
+  .page__content {
+    padding: 0.5rem;
+  }
+  
+  .sidebar {
+    padding: 0.5rem;
+  }
+}

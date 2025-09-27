@@ -419,10 +419,10 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 }
 
 .project-thumb {
-  flex-shrink: 0;            // don’t let the image shrink
-  width: 300px;               // adjust size
+  flex-shrink: 0;
+  width: 300px;
   height: auto;
-  margin-top: 0.25rem;       // tweak vertical alignment
+  margin-top: 0.25rem;
   &.pj-homepage {
     width: 150px;
   }

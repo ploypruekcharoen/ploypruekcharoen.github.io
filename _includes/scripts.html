@@ -1,4 +1,17 @@
-<script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
+<!-- Temporarily disabled main.min.js to test mobile loading -->
+<!-- <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script> -->
+<script>
+// Mobile loading fix - ensure page loads properly on mobile
+document.addEventListener('DOMContentLoaded', function() {
+  // Force mobile navigation to be visible
+  if (window.innerWidth <= 768) {
+    var hiddenLinks = document.querySelector('.greedy-nav .hidden-links');
+    if (hiddenLinks) {
+      hiddenLinks.style.display = 'block';
+    }
+  }
+});
+</script>
 
 {% include analytics.html %}
 
