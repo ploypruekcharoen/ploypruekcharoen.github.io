@@ -200,6 +200,40 @@
     color: #fff;
     cursor: pointer;
     z-index: 100;
+
+    .navicon {
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: #fff;
+      margin: 4px auto;
+      transition: all 0.3s ease;
+
+      &:before,
+      &:after {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: #fff;
+        margin: 4px auto;
+        transition: all 0.3s ease;
+      }
+    }
+
+    &.close .navicon {
+      background: transparent;
+
+      &:before {
+        transform: rotate(45deg);
+        margin-top: -2px;
+      }
+
+      &:after {
+        transform: rotate(-45deg);
+        margin-top: -2px;
+      }
+    }
   }
 
   .visible-links {

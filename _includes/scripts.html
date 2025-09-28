@@ -6,7 +6,8 @@
     (function () {
       function retargetExternalLinks(scope) {
         var currentOrigin = window.location.origin;
-        var links = (scope || document).querySelectorAll('.page__content a[href^="http"]');
+        // Target all external links, not just those in .page__content
+        var links = (scope || document).querySelectorAll('a[href^="http"]');
     
         links.forEach(function (link) {
           try {
@@ -33,24 +34,5 @@
       // In case of bfcache/nav restores
       window.addEventListener('pageshow', function(){ retargetExternalLinks(document); });
     })();
-</script>
-    
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        document.querySelectorAll(".author__urls a[href]").forEach(function(link) {
-        link.setAttribute("target", "_blank");
-        link.setAttribute("rel", "noopener noreferrer");
-        });
-    });
-</script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    // Match the CV link in the top nav
-    document.querySelectorAll('.masthead a[href$=".pdf"]').forEach(function(link) {
-      link.setAttribute('target', '_blank');
-      link.setAttribute('rel', 'noopener noreferrer');
-    });
-  });
 </script>
   
