@@ -63,11 +63,14 @@
     var breaks = [];
 
     function updateNav() {
-
+      console.log('updateNav called'); // Debug log
+      
       var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+      console.log('Available space:', availableSpace, 'Visible links width:', $vlinks.width()); // Debug log
 
       // The visible list is overflowing the nav
       if ($vlinks.width() > availableSpace) {
+        console.log('Navigation overflowing, showing hamburger button'); // Debug log
 
         while ($vlinks.width() > availableSpace && $vlinks.children("*:not(.persist)").length > 0) {
           // Record the width of the list
@@ -84,6 +87,7 @@
 
         // The visible list is not overflowing
       } else {
+        console.log('Navigation not overflowing, hiding hamburger button'); // Debug log
 
         // There is space for another item in the nav
         while (breaks.length > 0 && availableSpace > breaks[breaks.length - 1]) {

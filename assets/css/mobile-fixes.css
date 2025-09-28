@@ -32,6 +32,11 @@
     z-index: 100;
   }
   
+  /* Ensure button is visible when not hidden */
+  .greedy-nav button:not(.hidden) {
+    display: block !important;
+  }
+  
   /* Style the hamburger icon */
   .greedy-nav button .navicon {
     display: block;
