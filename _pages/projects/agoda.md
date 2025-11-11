@@ -20,4 +20,4 @@ Prototyping and developing an interactive prototype for Agoda's Add-to-Cart feed
 </div>
 
 <br/>
-<p><a href="/projects/xr-library">Next: Driving XR product demands through inclusive design</a></p>
+<p><a href="/projects/xr-library">Next: Driving XR product demands through participatory design</a></p>

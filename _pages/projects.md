@@ -19,7 +19,7 @@ author_profile: true
 
   <a href="/projects/xr-library"><div class="project-item">
     <img class="project-thumb" src="/files/projects/xr-library/xr-library.png" alt="XR Library">
-    <h3><strong>Driving XR product demands through inclusive design</strong></h3>
+    <h3><strong>Driving XR product demands through participatory design</strong></h3>
   </div></a>
 
   <a href="/projects/how-to-feel-microplastics"><div class="project-item">
