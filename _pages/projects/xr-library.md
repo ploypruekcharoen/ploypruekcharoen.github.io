@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Driving XR product demands through inclusive design"
+title: "Driving XR product demands through participatory design"
 permalink: projects/xr-library/
 author_profile: true
 ---
