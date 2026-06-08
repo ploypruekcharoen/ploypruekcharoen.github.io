@@ -25,7 +25,7 @@ Previously, I studied Human Centered Design and Engineering (HCDE) at the Univer
   </div></a>
 
   <a href="/projects/how-to-feel-microplastics"><div class="project-item pj-homepage">
-    <img class="project-thumb" src="/files/projects/microplastics/microplastics.png" alt="How To Feel Microplastics">
+    <img class="project-thumb pj-homepage" src="/files/projects/microplastics/microplastics.png" alt="How To Feel Microplastics">
     <p><strong>How To Feel Microplastics: ​Designing a Relational Data Setting​</strong></p>
   </div></a>
 
