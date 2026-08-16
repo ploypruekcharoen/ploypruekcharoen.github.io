@@ -16,13 +16,23 @@ author_profile: true
 ### Journal Articles & Conference Proceedings
 <br/>
 
+**Plasmatic Visualization: Visceral Attunement to Environmental Data**
+
+**Ploypilin Pruekcharoen**, Sylvia Janicki, Mohsin YK Yousufi, Miles Appleton, Emily G Weigel, Yanni Alexander Loukissas
+
+DIS 2026: Designing Interactive Systems Conference
+
+<i class="fa fa-file">&nbsp;</i> [PDF](https://dl.acm.org/doi/pdf/10.1145/3800645.3812791){:target="_blank" rel="noopener noreferrer"}
+
+---
+
 **“What’s going on in Accessibility Research?” Frequencies and Trends of Disability Categories and Research Domains in Publications at ASSETS**
 
 Ather Sharif, **Ploypilin Pruekcharoen\***, Thrisha Ramesh*, Ruoxi Shang, Spencer Williams, Gary Hsieh
 
 ASSETS 2022: ACM SIGACCESS Conference on Computers and Accessibility
 
-<i class="fa fa-file">&nbsp;</i> [PDF](/files/publications/assets2022_accessibility_trend_paper.pdf){:target="_blank" rel="noopener noreferrer"}
+<i class="fa fa-file">&nbsp;</i> [PDF](https://dl.acm.org/doi/pdf/10.1145/3517428.3550359){:target="_blank" rel="noopener noreferrer"}
 
 ---
 
@@ -32,14 +42,6 @@ ASSETS 2022: ACM SIGACCESS Conference on Computers and Accessibility
 Investigating Tensions in Software Engineers' Communication Practices around Ethics through a Role Playing Activity
 
 **Ploypilin Pruekcharoen\***, Xingyu Li*, Noura Howell, Richmond Wong
-
-(Under Review)
-
----
-
-Exploring Gender Bias and Harms of Generative Image AI Through Women’s Narratives in Co-Design Fiction
-
-**Ploypilin Pruekcharoen**, Mack Brumbaugh, Emilia Ruzicka, Ellen Simpson, Mona Sloane
 
 (Under Review)
 
