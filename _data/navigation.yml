@@ -14,11 +14,11 @@ main:
   - title: "PUBLICATIONS"
     url: /publications/
     
-  - title: "CV"
-    url: /files/PloyPruekcharoen_CV0925.pdf
+  # - title: "CV"
+  #   url: /files/PloyPruekcharoen_CV0925.pdf
 
-  - title: "RESUME"
-    url: /files/PloyPruekcharoen_UXRResume0925.pdf
+  # - title: "RESUME"
+  #   url: /files/PloyPruekcharoen_UXRResume0925.pdf
 
   # - title: "Talks"
   #   url: /talks/    
