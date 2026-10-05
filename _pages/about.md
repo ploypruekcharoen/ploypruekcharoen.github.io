@@ -44,8 +44,9 @@ Previously, I studied Human Centered Design and Engineering (HCDE) at the Univer
 
 **NEWS**
 
-June 2026 | Presented my first first-authored pictorial at [DIS 2026](https://dis.acm.org/2026/) in Singapore!
+Oct 2026 | Will be at 4S 2026 in Toronto to talk about Spatial STS and how to think about space and place through the concept of Attunement
+Jun 2026 | Presented my first first-authored pictorial at [DIS 2026](https://dis.acm.org/2026/) in Singapore!
 Sep 2025 | Presented my work on designing an affective data setting with a live demo at [4S 2025](https://www.4sonline.org/meeting.php); Seattle, WA
 Jan 2025 | Selected for participation in the 12th [NNCI Winter School](https://sfis.asu.edu/events/winter-school/) on Emerging Technologies: Accelerating Impactful Scholarship; Mesa, AZ
 Aug 2024 | Started my PhD at Georgia Tech!
-June 2023 | Started my internship at [Agoda](https://www.agoda.com/) (Booking Holdings Inc.) working with the Travel Platform design team
+Jun 2023 | Started my internship at [Agoda](https://www.agoda.com/) (Booking Holdings Inc.) working with the Travel Platform design team

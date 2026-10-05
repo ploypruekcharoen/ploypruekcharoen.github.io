@@ -20,4 +20,4 @@ Prototyping and developing an interactive prototype for Agoda's Add-to-Cart feed
 </div>
 
 <br/>
-<p><a href="/projects/df-ai">Next: Exploring Gender Bias and Harms of Generative Image AI Through Women’s Narratives in Co-Design Fiction</a></p>
+<p><a href="/projects/df-ai">Next: Investigating Gender Bias and Harms of AI Image Generators through Women’s Narratives in Design Fiction</a></p>
