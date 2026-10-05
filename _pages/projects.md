@@ -17,10 +17,10 @@ author_profile: true
     <h3><strong>Plasmatic Mirror: ​Designing a Relational Data Setting​</strong></h3>
   </div></a>
 
-  <div class="project-item">
+  <a href="/projects/df-ai"><div class="project-item">
     <img class="project-thumb" src="/files/projects/dfxai/design-fiction-ai.png" alt="Design Fiction x AI">
     <h3><strong>Investigating gender bias and harms of AI image generators through women’s narratives in design fiction</strong></h3>
-  </div>
+  </div></a>
 
   <a href="/projects/agoda-cart-feedback"><div class="project-item">
     <img class="project-thumb" src="/files/projects/agoda/agoda.png" alt="Agoda">

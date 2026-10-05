@@ -50,6 +50,20 @@ Investigating Tensions in Software Engineers' Communication Practices around Eth
 ### Panels and Invited Talks
 <br/>
 
+**SpatialSTS: A Living Glossary for Place-based Scholarship — "Attunement"**
+
+4S 2026: Society for Social Studies of Science
+
+---
+
+**Spatial STS Panel on Science, Technology, and Attunement**
+
+Moderator: **Ploypilin Pruekcharoen**; Panelists: Alexandria Smith and Sylvia Janicki
+
+Georgia Tech Critical Computing Group
+
+---
+
 **How to Feel Microplastics: Designing an Affective Data Setting** (Panel)
 
 Yanni Loukissas, **Ploypilin Pruekcharoen**, Emily Weigel, Miles Appleton, Sylvia
