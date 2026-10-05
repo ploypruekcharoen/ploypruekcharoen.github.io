@@ -5,7 +5,7 @@ permalink: projects/xr-library/
 author_profile: true
 ---
 
-**Ploy Pruekcharoen**, Dylan McKone, Zainab Zahra, Pao Pongsala; Capstone Project (\*Innovation and Willingness to Take Risks Award)
+**Ploypilin Pruekcharoen**, Dylan McKone, Zainab Zahra, Pao Pongsala; Capstone Project (\*Innovation and Willingness to Take Risks Award)
 
 ### Overview
 
@@ -19,5 +19,5 @@ Researched and designed a hybrid solution for an educational and collaborative e
   <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/slides/wNosjUA5lgkELKEu5CbPN9/XR-Library?node-id=1-89&embed-host=share" allowfullscreen></iframe>
 </div>
 
-<br/>
-<p><a href="/projects/how-to-feel-microplastics">Next: How To Feel Microplastics: ​Designing a Relational Data Setting</a></p>
+<!-- <br/>
+<p><a href="/projects/how-to-feel-microplastics">Next: How To Feel Microplastics: ​Designing a Relational Data Setting</a></p> -->

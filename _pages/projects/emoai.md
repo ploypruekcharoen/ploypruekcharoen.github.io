@@ -5,7 +5,7 @@ permalink: projects/role-playing-emoai/
 author_profile: true
 ---
 
-**Ploy Pruekcharoen\***, Xingyu Li*, Noura Howell, Richmond Wong; Academic Research
+**Ploypilin Pruekcharoen\***, Xingyu Li*, Noura Howell, Richmond Wong; Academic Research
 
 ### Abstract
 
@@ -20,4 +20,4 @@ This paper investigates how software engineers express and communicate ethical c
 </div>
 
 <br/>
-<p><a href="/projects/agoda-cart-feedback">Next: Improving Add-to-Cart feedback to enhance cross-selling</a></p>
+<p><a href="/projects/plasmatic-mirror">Next: How To Feel Microplastics: ​Designing a Relational Data Setting</a></p>

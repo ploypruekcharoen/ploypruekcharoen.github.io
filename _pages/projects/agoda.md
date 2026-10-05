@@ -5,7 +5,7 @@ permalink: projects/agoda-cart-feedback/
 author_profile: true
 ---
 
-**Ploy Pruekcharoen**; Internship Project
+**Ploypilin Pruekcharoen**; Internship Project
 
 ### Overview
 
@@ -20,4 +20,4 @@ Prototyping and developing an interactive prototype for Agoda's Add-to-Cart feed
 </div>
 
 <br/>
-<p><a href="/projects/xr-library">Next: Driving XR product demands through participatory design</a></p>
+<p><a href="/projects/df-ai">Next: Exploring Gender Bias and Harms of Generative Image AI Through Women’s Narratives in Co-Design Fiction</a></p>

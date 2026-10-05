@@ -1,11 +1,11 @@
 ---
 layout: project
 title: "How To Feel Microplastics: ​Designing a Relational Data Setting​"
-permalink: projects/how-to-feel-microplastics/
+permalink: projects/plasmatic-mirror/
 author_profile: true
 ---
 
-Yanni Loukissas, **Ploy Pruekcharoen**, Emily Weigel​, Miles Appleton, Sylvia Janicki; Academic Research
+Yanni Loukissas, **Ploypilin Pruekcharoen**, Emily Weigel​, Miles Appleton, Sylvia Janicki; Academic Research
 
 ### Abstract
 
@@ -18,3 +18,6 @@ For humans, all data are felt experiences. Unlike our computer systems, which ca
 <div class="figma-embed">
   <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/slides/n5aEw7beoLkq85NUaiB85X/How-To-Feel-Microplastics?node-id=1-560&embed-host=share" allowfullscreen></iframe>
 </div>
+
+<br/>
+<p><a href="/projects/agoda-cart-feedback">Next: Improving Add-to-Cart feedback to enhance cross-selling</a></p>
