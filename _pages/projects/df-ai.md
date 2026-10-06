@@ -30,7 +30,7 @@ The rise of AI image generators has transformed the way media are conceived, as 
 
 According to Rakow (1988), women and men have different access to the creation of, decision-making around, and experiences with technology. Given the rapid pace of development within the tech industry, it is critical to center those who bear the greatest burden of these harms. Accordingly, this study shifts focus from the technical dimensions of AI image generators to the experiences of a marginalized group—specifically women—examining how they interact with these systems and how those interactions shape their sense of self and social impacts. In doing so, this study investigates not only the gendered harms produced by AI image generators, but also how women reflect on those harms in relation to their individual experiences.
 
-## Feminist Sstandpoint Theory and Women’s Lived Experience 
+## Feminist Standpoint Theory and Women’s Lived Experience 
 
 Our research draws predominantly on Harding’s (2004) feminist standpoint theory, which broadens the focus of feminist epistemologies to include normative social theory and its intersection with other forms of oppression as a result of different place, class, racial, ethnic, and social inequities (Crenshaw, 1989). From the emphasis on diverse lived experiences in standpoint theory, we recognize that women’s experiences with these representations are not homogeneous. Rather, they are shaped by intersecting social, cultural, and technological contexts, which influence how women encounter, interpret, and respond to AI systems.
 
