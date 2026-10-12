@@ -50,13 +50,13 @@ Investigating Tensions in Software Engineers' Communication Practices around Eth
 ### Panels and Invited Talks
 <br/>
 
-**SpatialSTS: A Living Glossary for Place-based Scholarship — "Attunement"**
+**SpatialSTS: A Living Glossary for Place-based Scholarship — "Attunement"** (Panel)
 
 4S 2026: Society for Social Studies of Science
 
 ---
 
-**Spatial STS Panel on Science, Technology, and Attunement**
+**Spatial STS Panel on Science, Technology, and Attunement** (Panel)
 
 Moderator: **Ploypilin Pruekcharoen**; Panelists: Alexandria Smith and Sylvia Janicki
 

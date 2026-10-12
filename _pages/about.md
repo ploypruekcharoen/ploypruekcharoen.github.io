@@ -44,7 +44,7 @@ Previously, I studied Human Centered Design and Engineering (HCDE) at the Univer
 
 **NEWS**
 
-Oct 2026 | Will be at 4S 2026 in Toronto to talk about Spatial STS and how to think about space and place through the concept of Attunement
+Oct 2026 | Talked about Spatial STS and how to think about space and place through the concept of Attunement at 4S 2026 in Toronto 
 Jun 2026 | Presented my first first-authored pictorial at [DIS 2026](https://dis.acm.org/2026/) in Singapore!
 Sep 2025 | Presented my work on designing an affective data setting with a live demo at [4S 2025](https://www.4sonline.org/meeting.php); Seattle, WA
 Jan 2025 | Selected for participation in the 12th [NNCI Winter School](https://sfis.asu.edu/events/winter-school/) on Emerging Technologies: Accelerating Impactful Scholarship; Mesa, AZ

@@ -5,8 +5,7 @@ permalink: projects/df-ai/
 author_profile: true
 ---
 
-**Ploypilin Pruekcharoen**, Mack Brumbaugh, Emilia Ruzicka, Ellen Simpson
-, Mona Sloane; Academic Research
+**Ploypilin Pruekcharoen**, Mack Brumbaugh, Emilia Ruzicka, Ellen Simpson, and Mona Sloane; Academic Research
 
 ### Abstract
 
